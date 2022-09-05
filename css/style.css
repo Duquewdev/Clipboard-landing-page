@@ -1,0 +1,358 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ width: 100vw;
+ font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+h1, h2 {
+ color: hsl(210, 10%, 33%);
+}
+
+p {
+ color: hsl(201, 11%, 66%);
+}
+
+a {
+ text-decoration: none;
+}
+
+
+
+/*
+
+Sessão Cabeçalho
+
+*/
+
+header {
+ width: 100%;
+ height: auto;
+ background-image: url(../assets/image/bg-header-desktop.png);
+ background-repeat: no-repeat;
+ background-size: auto;
+}
+
+.container-cabeçalho {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ height: 400px;
+}
+
+.container-cabeçalho img {
+ width: 125px;
+ height: auto;
+}
+
+.container-cabeçalho h1 {
+ margin-top: 40px;
+ font-weight: 700;
+}
+
+.container-cabeçalho p {
+ width: 40%;
+ margin-top: 20px;
+ font-size: 16px;
+ font-weight: 400;
+ color: hsl(201, 11%, 66%);
+}
+
+.btn-container {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ gap: 1em;
+}
+
+
+.btn-cabeçalho-ios {
+ width: 15%;
+ padding: 20px;
+ border: none;
+ border-radius: 100px;
+ color: aliceblue;
+ font-weight: 700;
+ font-size: 15px;
+ background-color: hsl(171, 66%, 44%);
+ cursor: pointer;
+}
+
+.btn-cabeçalho-ios:hover {
+ background-color: hsl(171, 68%, 31%);
+}
+
+.btn-cabeçalho-mac {
+ width: 15%;
+ padding: 20px;
+ border: none;
+ border-radius: 100px;
+ color: aliceblue;
+ font-weight: 700;
+ font-size: 15px;
+ background-color: hsl(233, 100%, 69%);
+ cursor: pointer;
+}
+
+.btn-cabeçalho-mac:hover {
+ background-color: hsl(233, 68%, 56%);
+}
+
+
+/*
+
+Sessão Conteudo Principal
+
+*/
+
+main {
+ width: auto;
+}
+
+
+/*
+
+Sessão Trechos
+
+*/
+
+.container-section-one {
+ width: 100%;
+ height: auto;
+ margin-top: 10%;
+}
+
+.section-titulo-trechos {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.section-titulo-trechos p {
+ width: 50%;
+ margin-top: 20px;
+ font-weight: 400;
+}
+
+.section-img-textos-trechos {
+ width: 100%;
+ display: flex;
+ margin-top: 60px;
+ gap: 5em;
+}
+
+.section-textos-trechos h2 {
+ padding-top: 40px;
+}
+
+.section-textos-trechos p {
+ padding-top: 10px;
+ width: 50%;
+}
+
+/*
+
+Sessão transferências
+
+*/
+
+.container-section-transfer {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ margin-top: 10%;
+}
+
+.container-section-transfer p {
+ width: 50%;
+ margin-top: 20px;
+ font-weight: 400;
+}
+
+.container-section-transfer img {
+ margin-top: 60px;
+}
+
+
+/*
+
+Sessão fluxo de trabalho
+
+*/
+
+.section-fluxo-work-titulo {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.section-fluxo-work-titulo > p {
+ width: 50%;
+ margin-top: 20px;
+ font-weight: 400;
+}
+
+.section-ferramentas-work {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: baseline;
+ margin-top: 60px;
+}
+
+.fluxo-work {
+ width: 30%;
+ margin: 0 auto;
+}
+
+.fluxo-work h2 {
+ font-size: 18px;
+ padding: 10px;
+}
+
+.fluxo-work p {
+ font-size: 15px;
+ width: 70%;
+ margin: 0 auto;
+}
+
+/*
+
+Sessão parceiros
+
+*/
+
+.parceiros {
+ margin-top: 10%;
+ display: flex;
+ justify-content: center;
+
+}
+
+.parceiros img {
+ display: inline-flex;
+ vertical-align: middle;
+ margin: 0 40px;
+}
+
+
+/*
+
+Sessão download
+
+*/
+
+.container-download {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-top: 10%;
+}
+
+.container-download h1 {
+ margin-top: 40px;
+ font-weight: 700;
+}
+
+.container-download p {
+ width: 40%;
+ margin-top: 20px;
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.btn-container {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ gap: 1em;
+}
+
+.btn-download-ios {
+ width: 15%;
+ padding: 20px;
+ border: none;
+ border-radius: 100px;
+ color: aliceblue;
+ font-weight: 700;
+ font-size: 15px;
+ background-color: hsl(171, 66%, 44%);
+ cursor: pointer;
+}
+
+.btn-download-ios:hover {
+ background-color: hsl(171, 68%, 31%);
+}
+
+.btn-download-mac {
+ width: 15%;
+ padding: 20px;
+ border: none;
+ border-radius: 100px;
+ color: aliceblue;
+ font-weight: 700;
+ font-size: 15px;
+ background-color: hsl(233, 100%, 69%);
+ cursor: pointer;
+}
+
+.btn-download-mac:hover {
+ background-color: hsl(233, 68%, 56%);
+}
+
+/*
+
+Sessão rodapé
+
+*/
+
+footer {
+ width: 100%;
+ height: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ margin-top: 10%;
+ background-color: hsl(0, 0%, 88%);
+}
+
+
+.link-footer {
+ display: flex;
+ gap: 3em;
+}
+
+.links {
+ display: flex;
+ flex-direction: column;
+}
+
+.links a {
+ color: hsl(210, 10%, 33%);
+ margin: 10px;
+}
+
+.links a:hover {
+ color: hsl(233, 68%, 56%);
+}
+
+.social-footer {
+ margin: 10px;
+}
